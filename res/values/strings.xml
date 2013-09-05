@@ -4,12 +4,15 @@
     <string name="app_name">Quiz</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+
     <string-array name="quizes_array">
-        <item >Easy Quiz</item>
-        <item >Hard Quiz</item>
+        <item>Easy Quiz</item>
+        <item>Hard Quiz</item>
     </string-array>
-        <string name="startButtonTxt">Start</string>
-        <string name="aboutButtonTxt">About</string>
-        <string name="mainTitle">Welcome to the quiz</string>
+
+    <string name="startButtonTxt">Start</string>
+    <string name="aboutButtonTxt">About</string>
+    <string name="mainTitle">Welcome to the quiz</string>
+    <string name="title_activity_about">About Activity</string>
 
 </resources>
