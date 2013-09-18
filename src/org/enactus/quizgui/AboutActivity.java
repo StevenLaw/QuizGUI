@@ -1,12 +1,15 @@
 package org.enactus.quizgui;
 
-import android.os.Bundle;
+import android.annotation.TargetApi;
 import android.app.Activity;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.text.method.LinkMovementMethod;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
-import android.annotation.TargetApi;
-import android.os.Build;
+import android.widget.TextView;
 
 public class AboutActivity extends Activity {
 
@@ -16,6 +19,14 @@ public class AboutActivity extends Activity {
 		setContentView(R.layout.activity_about);
 		// Show the Up button in the action bar.
 		setupActionBar();
+		
+		// Allow the summary to scroll if it is needed
+		TextView txtSummaryBody =(TextView) findViewById(R.id.txtSummaryBody);
+		txtSummaryBody.setMovementMethod(new ScrollingMovementMethod());
+		
+		// link to the source
+		TextView txtLink = (TextView) findViewById(R.id.txtLink);
+		txtLink.setMovementMethod(LinkMovementMethod.getInstance());
 	}
 
 	/**

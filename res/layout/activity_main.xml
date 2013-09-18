@@ -11,7 +11,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtSummaryBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -28,12 +28,14 @@
         android:id="@+id/startButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="startQuiz"
         android:text="@string/startButtonTxt" />
 
     <Button
         android:id="@+id/AboutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="showAbout"
         android:text="@string/aboutButtonTxt" />
 
 </LinearLayout>

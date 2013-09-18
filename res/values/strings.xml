@@ -14,5 +14,16 @@
     <string name="aboutButtonTxt">About</string>
     <string name="mainTitle">Welcome to the quiz</string>
     <string name="title_activity_about">About Activity</string>
+    <string name="strAboutEnactus">Summary about Enactus</string>
+    <string name="strSummaryBody">Enactus, previously known as SIFE, is an international non-profit organization present in 37 countries that \&quot;brings together student, academic and business leaders who are committed to using the power of entrepreneurial action to improve the quality of life and standard of living for people in need\&quot; (Enactus, 2013).\n\nEnactus DeVry Calgary is a non profit student organization on the DeVry Campus. We bring together the top leaders of today and tomorrow to create a better, more sustainable world through the positive power of business. While serving the Calgary community through countless volunteer hours we gain the knowledge, experience and connections to start our careers upon graduation. </string>
+    <string name="strContributions">Contribution of Enactus Members on the Skilled Finances Application</string>
+    <string name="strMohit">Mohit Goyal: Graphical designer</string>
+    <string name="strDane">Dane Hearn: Consultant</string>
+    <string name="strCJ">Charanjeev Johal: GUI interface Designer and Documentation Designer</string>
+    <string name="strLauriane">Lauriane Kunzler: Tester and Lead of the project</string>
+    <string name="strSteven">Steven Law : Lead Programmer</string>
+    <string name="strArvinder">Arvinder Singh: Position to be decided with him</string>
+    <string name="strLindsay">Lindsay Smella: Programmer and Lead of the Project</string>
+    <string name="strLink">http://enactus.org/who-we-are/our-story/</string>
 
 </resources>
