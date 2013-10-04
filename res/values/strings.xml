@@ -25,5 +25,9 @@
     <string name="strArvinder">Arvinder Singh: Position to be decided with him</string>
     <string name="strLindsay">Lindsay Smella: Programmer and Lead of the Project</string>
     <string name="strLink">http://enactus.org/who-we-are/our-story/</string>
+    <string name="title_activity_instruction">InstructionActivity</string>
+    <string name="strInstruction">For each question choose the best answer out of all the options.  Each answer will lead to an explanation about the answer that you chose.</string>
+    <string name="nextButtonTxt">Next</string>
+    <string name="backButtonTxt">Back</string>
 
 </resources>

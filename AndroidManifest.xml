@@ -30,6 +30,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.enactus.quizgui.MainActivity" />
         </activity>
+        <activity
+            android:name="org.enactus.quizgui.InstructionActivity"
+            android:label="@string/title_activity_instruction"
+            android:parentActivityName="org.enactus.quizgui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.enactus.quizgui.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

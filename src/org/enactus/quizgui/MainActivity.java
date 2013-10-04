@@ -22,8 +22,9 @@ public class MainActivity extends Activity {
 	}
 	
 	public void startQuiz(View view) {
-		// TODO Auto-generated method stub startQuiz
-		
+		// TODO Add the load quiz code
+		Intent intent = new Intent(this, InstructionActivity.class);
+		startActivity(intent);
 	}
 	
 	public void showAbout(View view) {
